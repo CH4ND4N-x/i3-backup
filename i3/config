@@ -21,7 +21,6 @@ font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
 font pango:DejaVu Sans Mono 10
 font pango:DejaVu Sans Mono, Terminus Bold Semi-Condensed 11
 font pango:Terminus 11px
-font pango:FontAwesome:size=10
 font pango:Iosevka Nerd Font:pixelsize=14;3
 font pango:Iosevka Nerd Font:style=Medium:size=22;5
 font pango:FontAwesome:size=10
