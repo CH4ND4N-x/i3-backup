@@ -7,7 +7,7 @@ RFILE="$HOME/.config/polybar/scripts/rofi/colors.rasi"
 # Change colors
 change_color() {
 	# polybar
-	sed -i -e 's/background = #.*/background = #zz24283b/g' $PFILE
+	sed -i -e 's/background = #.*/background = #00000000/g' $PFILE
 	sed -i -e 's/foreground = #.*/foreground = #FFFFFF/g' $PFILE
 	sed -i -e 's/foreground-alt = #.*/foreground-alt = #1F1F1F/g' $PFILE
 	sed -i -e "s/color1 = #.*/color1 = $SH1/g" $PFILE
