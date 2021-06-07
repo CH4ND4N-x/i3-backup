@@ -246,6 +246,9 @@ bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -dec 1
 #screenshot
 bindsym --release Print exec --no-startup-id import /home/chandan/Picture/screenshot-`/bin/date +%Y%m%d-%H:%M:%S`.png
 
+#random wallpaper
+bindsym $mod+w+a
+
 #**************window customization********************************************************
 #assign program for workspace
 for_window [class="Brave-browser"] move to workspace $ws2
@@ -270,7 +273,5 @@ exec_always --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-ag
 
 
 #restoring nitrogen on start up
-#exec_always nitrogen --restore
+exec_always nitrogen --restore
 
-#restoring feh wallpapers
-exec_always ~/.fehbg
