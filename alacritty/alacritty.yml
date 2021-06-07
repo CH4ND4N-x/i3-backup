@@ -174,57 +174,39 @@ window:
 
 # If `true`, bold text is drawn using the bright color variants.
 #draw_bold_text_with_bright_colors: false
-
+#0f1011
+# Colors (IR Black)
 colors:
   # Default colors
   primary:
-    background: '#2c2c2c'
-    foreground: '#d6d6d6'
+   background: '#0f1011'
+   foreground: '#ffffff'
 
-    dim_foreground:    '#dbdbdb'
-    bright_foreground: '#d9d9d9'
-    dim_background:    '#202020' # not sure
-    bright_background: '#3a3a3a' # not sure
-
-  # Cursor colors
   cursor:
-    text:   '#2c2c2c'
-    cursor: '#d9d9d9'
+   text: '#ffffff'
+   cursor: '#ffffff'
 
   # Normal colors
   normal:
-    black:   '#1c1c1c'
-    red:     '#bc5653'
-    green:   '#909d63'
-    yellow:  '#ebc17a'
-    blue:    '#7eaac7'
-    magenta: '#aa6292'
-    cyan:    '#86d3ce'
-    white:   '#cacaca'
+   black:   '#4e4e4e'
+   red:     '#ff6c60'
+   green:   '#a8ff60'
+   yellow:  '#ffffb6'
+   blue:    '#96cbfe'
+   magenta: '#ff73fd'
+   cyan:    '#c6c5fe'
+   white:   '#eeeeee'
 
   # Bright colors
   bright:
-    black:   '#636363'
-    red:     '#bc5653'
-    green:   '#909d63'
-    yellow:  '#ebc17a'
-    blue:    '#7eaac7'
-    magenta: '#aa6292'
-    cyan:    '#86d3ce'
-    white:   '#f7f7f7'
-
-  # Dim colors
-  dim:
-    black:   '#232323'
-    red:     '#74423f'
-    green:   '#5e6547'
-    yellow:  '#8b7653'
-    blue:    '#556b79'
-    magenta: '#6e4962'
-    cyan:    '#5c8482'
-    white:   '#828282'
-
-
+   black:   '#7c7c7c'
+   red:     '#ffb6b0'
+   green:   '#ceffab'
+   yellow:  '#ffffcb'
+   blue:    '#b5dcfe'
+   magenta: '#ff9cfe'
+   cyan:    '#dfdffe'
+   white:   '#ffffff'
 
 #Colors (Tomorrow Night)
 #colors:

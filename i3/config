@@ -18,8 +18,8 @@ set $mod Mod4
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
 font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
-font pango:DejaVu Sans Mono 10
-font pango:DejaVu Sans Mono, Terminus Bold Semi-Condensed 11
+font pango:DejaVu Sans Mono 14
+font pango:DejaVu Sans Mono, Terminus Bold Semi-Condensed 14
 font pango:Terminus 11px
 font pango:Iosevka Nerd Font:pixelsize=14;3
 font pango:Iosevka Nerd Font:style=Medium:size=22;5
@@ -252,20 +252,17 @@ bindsym --release Print exec --no-startup-id import /home/chandan/Picture/screen
 for_window [class="Brave-browser"] move to workspace $ws2
 for_window [class="Code"] move to workspace $ws6
 for_window [class="jetbrains-studio"] move to workspace $ws7
-#Android emulator
+#floating window for Android emulator
 for_window [title=".*Emulator.*"] floating enable
 assign [title=".*Emulator.*"] $ws7
-#Gnu octave 
+#flowting window for Gnu octave 
 for_window [title="Figure*"] floating enable
-
-
 #**************Exec programs on start******************************************
 
 #execute picom
 exec_always picom -f
 
 #polybar launch script
-#exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 
@@ -275,3 +272,4 @@ exec_always --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-ag
 
 #restoring nitrogen on start up
 exec_always nitrogen --restore
+
