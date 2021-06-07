@@ -33,6 +33,8 @@ pavucontrol.ini
 i3status
 i3/config.save
 i3/config.save.1
+i3/config.save.2
+i3/config.save.3
 alacritty/alacritty.yml.save
 polybar/config.ini.save
 polybar/config.ini.save.1
