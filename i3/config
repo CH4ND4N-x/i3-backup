@@ -270,7 +270,7 @@ exec_always --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-ag
 
 
 #restoring nitrogen on start up
-#exec_always nitrogen --restore
+exec_always nitrogen --restore
 
 #restoring feh wallpapers
-exec_always ~/.fehbg
+#exec_always ~/.fehbg
