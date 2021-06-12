@@ -1,36 +1,3 @@
-autostart
-Android\ Open\ Source\ Project
-bpytop
-BraveSoftware
-chromium 
-Code 
-dconf
-geany
-Google
-google-chrome
-gtk-2.0
-gtk-3.0
-libfm
-matplotlib
-Microsoft
-Microsoft\ Teams\ -\ Preview
-nitrogen
-octave
-pamac
-pcmanfm
-polybar.old
-pulse
-Signal
-teams
-viewnior
-vlc
-wal 
-xarchiver
-QtProject.conf
-mimeapps.list
-pavucontrol.ini
-pavucontrol.ini
-i3status
 i3/config.save
 i3/config.save.1
 i3/config.save.2
@@ -40,7 +7,4 @@ polybar/config.ini.save
 polybar/config.ini.save.1
 polybar/modules.ini.save
 networkmanager-dmenu/config.ini.save
-GIMP
-libreoffice
-wallpaper
-Wallhaven
+
